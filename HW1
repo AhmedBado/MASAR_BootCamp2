@@ -1,0 +1,102 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyPGzsmoQpRDj0JRREJwGPL0",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AhmedBado/MASAR_BootCamp2/blob/main/HW1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#HW1\n",
+        "\n",
+        "*   تعريف متغير و جعل قيمته هو اسمك\n",
+        "*   تعريف متغير آخر و يكون قيمته هو عمرك\n",
+        "*   طباعة جملة تتحدث فيها عن نفسك\n",
+        "*   لاتنس استخدام # لاضافة التعليقات\n"
+      ],
+      "metadata": {
+        "id": "3L399uv7yHCr"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#الاسم\n",
+        "name = 'Ahmed'\n",
+        "#العمر\n",
+        "age = 25\n",
+        "\n",
+        "print('welcome i am ' + name)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rXSMPCPQzOxg",
+        "outputId": "49f6601e-4ebb-4c05-f7b5-14fcbaf2e740"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "welcome i am Ahmed\n",
+            "<class 'float'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "check = False\n",
+        "\n",
+        "if check==True :\n",
+        "  print('good')\n",
+        "else:\n",
+        "    print(\"wrong\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ooYRA8mj0rKi",
+        "outputId": "243281e7-4a39-4b54-a253-3464606fe3dd"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "wrong\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
